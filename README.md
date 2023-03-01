@@ -1,7 +1,7 @@
 # MKAUTH-IDOR
 An idor was found at a brazilian ISP system.
 
-##Mk-Auth IDOR in Central/Suporte on GET method parameter
+##Mk-Auth IDOR in Central/Suporte/ChamadosTécnicos on GET method parameter
 
 ##Product Description:
 Mk-Auth is a Brazilian Management System for Internet Service Providers used to control client access and permissions via a web interface panel.
@@ -38,7 +38,7 @@ Remote
 No
 
 ##Attack Vector:
-An authenticated user must access a authenticated support web page then change the parameter to another one.
+An authenticated user must access a authenticated support web page then change the value of parameter "chamado" to another one.
 
 ##Reference:
 	http://mk-auth.com.br/
