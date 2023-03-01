@@ -38,7 +38,7 @@ Remote
 No
 
 ##Attack Vector:
-An authenticated user must access a authenticated support web page then change the value of parameter "chamado" to another one.
+An authenticated user must access an authenticated support web page and then change the value of the parameter "chamado" to another one.
 
 ##Reference:
 	http://mk-auth.com.br/
