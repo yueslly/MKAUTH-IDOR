@@ -31,14 +31,11 @@ Probably previous are also affected
 ##Affected Component:
 Central: Suporte: Chamados Técnicos
 
-##Attack Vector:
-Remote
-
 ##Code Execution:
 No
 
 ##Attack Vector:
-An authenticated user must access an authenticated support web page and then change the value of the parameter "chamado" to another one.
+Remote -- An authenticated user must access an authenticated support web page and then change the value of the parameter "chamado" to another one.
 
 ##Reference:
 	http://mk-auth.com.br/
