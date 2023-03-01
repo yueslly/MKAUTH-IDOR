@@ -15,7 +15,7 @@ https://{{HOST}}/central/suporte.hhvm?page=mensagens&chamado={{IDOR}}
 
 Note: the value of "chamado" is DDMMYY{{+8 numbers}} easy to FUZZ.
 
-![image](https://user-images.githubusercontent.com/47789115/222015450-9214c250-3dde-4fb4-a836-ca7852d3b38f.png)
+![mkauth-idor](https://user-images.githubusercontent.com/47789115/222015803-d4a78f99-9599-428e-be2d-22adabef3048.gif)
 
 ##Vulnerability Type:
 portswigger: https://portswigger.net/web-security/access-control/idor
