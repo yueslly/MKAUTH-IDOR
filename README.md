@@ -13,6 +13,10 @@ It is possible to see and send support calls of others users just changing the v
 Is possible for an authenticated user to change the value of parameter "chamado" and get control of support page of another users.
 https://{{HOST}}/central/suporte.hhvm?page=mensagens&chamado={{IDOR}}
 
+Note: the value of "chamado" is DDMMYY{{+8 numbers}} easy to FUZZ.
+
+![image](https://user-images.githubusercontent.com/47789115/222015450-9214c250-3dde-4fb4-a836-ca7852d3b38f.png)
+
 ##Vulnerability Type:
 portswigger: https://portswigger.net/web-security/access-control/idor
 CWE-639: Authorization Bypass Through User-Controlled Key | Alternate terms: Insecure Direct Object Reference (IDOR)
@@ -34,13 +38,13 @@ Remote
 No
 
 ##Attack Vector:
-An authenticated user must access a support web page of another user.
+An authenticated user must access a authenticated support web page then change the parameter to another one.
 
 ##Reference:
 	http://mk-auth.com.br/
 
 ##Discoverer:
-Yueslly Lisboa (0xC4CTU$) | yuesllylisboa[at]gmail.com.br
+Yueslly Lisboa (0xC4CTU$) | yuesllylisboa[at]gmail.com
 
 ##Thanks to:
 Alan Lacerda (alacerda) | alacerda@intruderlabs.com.br
